@@ -10,7 +10,7 @@ const App = () => {
       </button>
     </div>
   );
-  )
+  
 }
   const onclickHandler = () => {
   let a = document.getElementById("marco-polo");
@@ -18,6 +18,7 @@ const App = () => {
 
   let b = document.getElementById("marco-polo-toggler");
   b.innerText === "Polo" ? (b.innerText = "Marco") : (b.innerText = "Polo");
+  };
 
 
 export default App;
